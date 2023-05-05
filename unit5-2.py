@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import scipy.stats as st
 
 df = pd.read_csv('FootballPlayerStats.csv')
-df.info()
 
 print("โจทย์ : หาเปอร์เซนต์ของนักฟุตบอลที่มีอายุระหว่าง 20-25 ปี ถ้าอายุมีการแจกแจงแบบปกติ\n")
 
