@@ -10,7 +10,7 @@ all = eng_players+ita_players
 # สร้าง DataFrame ของตำแหน่งและจำนวนตำแหน่งที่ต้องการ
 print(f'ผู้เล่นประเทศอังกฤษ: {eng_players}')
 print(f'ผู้เล่นประเทศอิตาลี : {ita_players}')
-print('ตำแหน่งที่รับสมัคร: DF 1 คน, MF 1 คน, FW 1คน')
+print('ตำแหน่งที่รับสมัคร: GK 1 คน, MF 1 คน, FW 1คน')
 
 # คำนวณค่าคาดหวังของจำนวนผู้ที่จะได้รับเลือก
 total_expected = 0
