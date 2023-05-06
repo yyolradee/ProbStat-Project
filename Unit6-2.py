@@ -18,11 +18,12 @@ print("หา P(X < 1000)\n")
 
 # z-score ของ P(X < 1000)
 z_score = (1000 - mean) / (std / math.sqrt(100))
-print(f"P(X < 1000) = P(Z < {z_score:.2f})")
+print(f"ดังนั้น P(X < 1000) = P(Z < (1000 - 1234.76) / (977.64 / √100))")
+print(f"                 = P(Z < {z_score:.2f})")
 
 # P score ของ (Z < -2.40)
 z_val = st.norm.sf(z_score)
-print(f"P(X < 1000) = {z_val:.2f}")
+print(f"                 = {z_val:.2f}")
 
 # แสดงกราฟ
 df.Min.hist()
