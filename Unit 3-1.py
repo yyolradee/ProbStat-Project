@@ -12,8 +12,6 @@ print(f'ผู้เล่นประเทศอังกฤษ: {eng_players}
 print(f'ผู้เล่นประเทศอิตาลี : {ita_players}')
 print('ตำแหน่งที่รับสมัคร: DF 1 คน, MF 1 คน, FW 1คน')
 
-
-
 # คำนวณค่าคาดหวังของจำนวนผู้ที่จะได้รับเลือก
 total_expected = 0
 for x in range(0, 4):
